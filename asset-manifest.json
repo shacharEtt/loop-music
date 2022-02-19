@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/loop-music/static/css/main.c7d9d93e.chunk.css",
+    "main.js": "/loop-music/static/js/main.0116d20f.chunk.js",
+    "main.js.map": "/loop-music/static/js/main.0116d20f.chunk.js.map",
+    "runtime~main.js": "/loop-music/static/js/runtime~main.4061923f.js",
+    "runtime~main.js.map": "/loop-music/static/js/runtime~main.4061923f.js.map",
+    "static/css/2.3b2cfc2e.chunk.css": "/loop-music/static/css/2.3b2cfc2e.chunk.css",
+    "static/js/2.644b15dd.chunk.js": "/loop-music/static/js/2.644b15dd.chunk.js",
+    "static/js/2.644b15dd.chunk.js.map": "/loop-music/static/js/2.644b15dd.chunk.js.map",
+    "static/js/3.79a04dbb.chunk.js": "/loop-music/static/js/3.79a04dbb.chunk.js",
+    "static/js/3.79a04dbb.chunk.js.map": "/loop-music/static/js/3.79a04dbb.chunk.js.map",
+    "index.html": "/loop-music/index.html",
+    "precache-manifest.f4fe5e7b54a679c140d3acea2a179f20.js": "/loop-music/precache-manifest.f4fe5e7b54a679c140d3acea2a179f20.js",
+    "service-worker.js": "/loop-music/service-worker.js",
+    "static/css/2.3b2cfc2e.chunk.css.map": "/loop-music/static/css/2.3b2cfc2e.chunk.css.map",
+    "static/css/main.c7d9d93e.chunk.css.map": "/loop-music/static/css/main.c7d9d93e.chunk.css.map",
+    "static/media/B VOC.mp3": "/loop-music/static/media/B VOC.c435443f.mp3",
+    "static/media/DRUMS.mp3": "/loop-music/static/media/DRUMS.e3e2854f.mp3",
+    "static/media/HE HE VOC.mp3": "/loop-music/static/media/HE HE VOC.4db5581d.mp3",
+    "static/media/HIGH VOC.mp3": "/loop-music/static/media/HIGH VOC.d02c4164.mp3",
+    "static/media/JIBRISH.mp3": "/loop-music/static/media/JIBRISH.11a9984b.mp3",
+    "static/media/LEAD 1.mp3": "/loop-music/static/media/LEAD 1.dadfe26a.mp3",
+    "static/media/UUHO VOC.mp3": "/loop-music/static/media/UUHO VOC.b68f64b5.mp3",
+    "static/media/_tambourine_shake_higher.mp3": "/loop-music/static/media/_tambourine_shake_higher.06c14ace.mp3"
+  }
+}
