@@ -43,6 +43,10 @@ const Controls= (props) => {
         playPuaseBtn.current.value='Play'
         bar.current.value='0'
         setIcon(<BsFillPlayFill/>)
+        props.songs.forEach((song) =>{
+            const line= document.getElementById(song[0]+'l')
+            line.style.width =`100%`
+        })
     }
 
     const setLoop= ()=>{
@@ -69,7 +73,7 @@ const Controls= (props) => {
 
     //while playing, change line and bar place
     const whenPlay= () => {
-        const place=document.getElementById('/static/media/B VOC.c435443f.mp3').currentTime
+        const place=document.getElementById(props.songs[0][0]).currentTime
         bar.current.value= place
         const linePlace= calPercent(place)
         props.songs.forEach((song) =>{
