@@ -20,14 +20,14 @@ const Controls= (props) => {
     const playAll= ()=>{
         if (playPuaseBtn.current.value ==='Play'){
         props.songs.forEach((song) =>{
-            document.getElementById(song[0]).play()
+            document.getElementById(song).play()
         })
         moveBarRef.current= requestAnimationFrame(whenPlay)
         playPuaseBtn.current.value= 'Puase'
         setIcon(<BsFillPauseFill/>)
         } else {
         props.songs.forEach((song) =>{
-            document.getElementById(song[0]).pause()
+            document.getElementById(song).pause()
         })
         cancelAnimationFrame(moveBarRef.current)
         playPuaseBtn.current.value= 'Play'
@@ -37,14 +37,14 @@ const Controls= (props) => {
 
     const stopMusic= () =>{
         props.songs.forEach((song) =>{
-            document.getElementById(song[0]).pause()
-            document.getElementById(song[0]).currentTime = 0
+            document.getElementById(song).pause()
+            document.getElementById(song).currentTime = 0
         })
         playPuaseBtn.current.value='Play'
         bar.current.value='0'
         setIcon(<BsFillPlayFill/>)
         props.songs.forEach((song) =>{
-            const line= document.getElementById(song[0]+'l')
+            const line= document.getElementById(song+'l')
             line.style.width =`100%`
         })
     }
@@ -52,13 +52,13 @@ const Controls= (props) => {
     const setLoop= ()=>{
         if (loopBtn.current.value ==='Loop'){
         props.songs.forEach((song) =>{
-            document.getElementById(song[0]).loop=true;
+            document.getElementById(song).loop=true;
         })
         loopBtn.current.value= 'Unloop'
         setloopIcon(<RiRepeat2Fill/>)
         } else {
         props.songs.forEach((song) =>{
-            document.getElementById(song[0]).loop=false;
+            document.getElementById(song).loop=false;
         })
         loopBtn.current.value= 'Loop'
         setloopIcon(<RiRepeatOneFill/>)
@@ -73,11 +73,11 @@ const Controls= (props) => {
 
     //while playing, change line and bar place
     const whenPlay= () => {
-        const place=document.getElementById(props.songs[0][0]).currentTime
+        const place=document.getElementById(props.songs[0]).currentTime
         bar.current.value= place
         const linePlace= calPercent(place)
         props.songs.forEach((song) =>{
-            const line= document.getElementById(song[0]+'l')
+            const line= document.getElementById(song+'l')
             line.style.width =`${linePlace}%`
         })
         moveBarRef.current= requestAnimationFrame(whenPlay)
@@ -87,11 +87,11 @@ const Controls= (props) => {
     const chagePlace= ()=> {
         const place= Number(bar.current.value).toFixed(6);
         props.songs.forEach((song) =>{
-            document.getElementById(song[0]).currentTime= place;
+            document.getElementById(song).currentTime= place;
         })
         const linePlace= calPercent(place)
         props.songs.forEach((song) =>{
-            const line= document.getElementById(song[0]+'l')
+            const line= document.getElementById(song+'l')
             line.style.width =`${linePlace}%`
         })
     }

@@ -14,7 +14,10 @@ import LEAD_1 from './musicFiles/LEAD 1.mp3';
 import UUHO_VOC from './musicFiles/UUHO VOC.mp3';
 import tambourine from './musicFiles/_tambourine_shake_higher.mp3';
 
-const songs= [[B_VOC,'blue'],[DRUMS,'green'],[HE_HE_VOC,'light-purple'],[HIGH_VOC,'yellow'],[JIBRISH,'light-yellow'],[LEAD_1,'pink'],[UUHO_VOC,'light-blue'],[tambourine,'light-red']]
+const songAndColor= [[B_VOC,'blue'],[DRUMS,'green'],[HE_HE_VOC,'light-purple'],[HIGH_VOC,'yellow'],[JIBRISH,'light-yellow'],[LEAD_1,'pink'],[UUHO_VOC,'light-blue'],[tambourine,'light-red']]
+
+const songs= [B_VOC,DRUMS,HE_HE_VOC,HIGH_VOC,JIBRISH,LEAD_1,UUHO_VOC,tambourine]
+
 
 
 const App= ()=>{
@@ -22,7 +25,7 @@ const App= ()=>{
   return (
     <div className="App pv1">
       <h1 className=''>Loop Machine</h1>
-      <AllMusic songs={songs}/>
+      <AllMusic songsColor={songAndColor}/>
       <Controls songs={songs}/>
       <div className='flex align-center justify-center pv1'> <RiCopyrightLine/>shacharEtt</div>
     </div>
