@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b8a5d8542ffed33e6725f33251a54b2",
+    "revision": "10d86af35c2c4979bf35ab484582ad34",
     "url": "/loop-music/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/loop-music/static/css/2.3b2cfc2e.chunk.css"
   },
   {
-    "revision": "8867ae6d54a925f64f08",
+    "revision": "829cf1060ff428bbc2eb",
     "url": "/loop-music/static/css/main.c7d9d93e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/loop-music/static/js/3.79a04dbb.chunk.js"
   },
   {
-    "revision": "8867ae6d54a925f64f08",
-    "url": "/loop-music/static/js/main.b435d741.chunk.js"
+    "revision": "829cf1060ff428bbc2eb",
+    "url": "/loop-music/static/js/main.d84580b4.chunk.js"
   },
   {
     "revision": "53087e96385fb606d1eb",
@@ -52,11 +52,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/loop-music/static/media/LEAD 1.dadfe26a.mp3"
   },
   {
-    "revision": "b68f64b5c79974187e329e05616be978",
-    "url": "/loop-music/static/media/UUHO VOC.b68f64b5.mp3"
+    "revision": "06c14acedf5b2209306ff0ca2ee547af",
+    "url": "/loop-music/static/media/Tambourine.06c14ace.mp3"
   },
   {
-    "revision": "06c14acedf5b2209306ff0ca2ee547af",
-    "url": "/loop-music/static/media/_tambourine_shake_higher.06c14ace.mp3"
+    "revision": "b68f64b5c79974187e329e05616be978",
+    "url": "/loop-music/static/media/UUHO VOC.b68f64b5.mp3"
   }
 ]);
