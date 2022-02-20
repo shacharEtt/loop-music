@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f4332b916d759a42d56946141413a39",
+    "revision": "6b8a5d8542ffed33e6725f33251a54b2",
     "url": "/loop-music/index.html"
   },
   {
-    "revision": "10f894ba2feac5a524b2",
+    "revision": "6dc7d3d3406e8db06ba7",
     "url": "/loop-music/static/css/2.3b2cfc2e.chunk.css"
   },
   {
-    "revision": "60a040b74defcd36f104",
+    "revision": "8867ae6d54a925f64f08",
     "url": "/loop-music/static/css/main.c7d9d93e.chunk.css"
   },
   {
-    "revision": "10f894ba2feac5a524b2",
-    "url": "/loop-music/static/js/2.644b15dd.chunk.js"
+    "revision": "6dc7d3d3406e8db06ba7",
+    "url": "/loop-music/static/js/2.c5f6e9c2.chunk.js"
   },
   {
     "revision": "9ac7d1fb223f2f9a1e9e",
     "url": "/loop-music/static/js/3.79a04dbb.chunk.js"
   },
   {
-    "revision": "60a040b74defcd36f104",
-    "url": "/loop-music/static/js/main.0116d20f.chunk.js"
+    "revision": "8867ae6d54a925f64f08",
+    "url": "/loop-music/static/js/main.b435d741.chunk.js"
   },
   {
     "revision": "53087e96385fb606d1eb",
