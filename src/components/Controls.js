@@ -3,6 +3,7 @@ import React, { useState, useRef } from 'react';
 import { BsFillStopFill, BsFillPlayFill, BsFillPauseFill } from 'react-icons/bs';
 import { RiRepeat2Fill, RiRepeatOneFill } from 'react-icons/ri';
 
+//tachyons style for all buttons
 const btnStyle= 'near-white bg-animate bg-near-black hover-bg-gray inline-flex items-center justify-center w3 ma1 shadow-5 br2 pa2'
 
 const Controls= (props) => {

@@ -12,13 +12,11 @@ import HIGH_VOC from './musicFiles/HIGH VOC.mp3';
 import JIBRISH from './musicFiles/JIBRISH.mp3';
 import LEAD_1 from './musicFiles/LEAD 1.mp3';
 import UUHO_VOC from './musicFiles/UUHO VOC.mp3';
-import tambourine from './musicFiles/_tambourine_shake_higher.mp3';
+import Tambourine from './musicFiles/Tambourine.mp3';
 
-const songAndColor= [[B_VOC,'blue'],[DRUMS,'green'],[HE_HE_VOC,'light-purple'],[HIGH_VOC,'yellow'],[JIBRISH,'light-yellow'],[LEAD_1,'pink'],[UUHO_VOC,'light-blue'],[tambourine,'light-red']]
+const songAndColor= [[B_VOC,'blue'],[DRUMS,'green'],[HE_HE_VOC,'light-purple'],[HIGH_VOC,'yellow'],[JIBRISH,'light-yellow'],[LEAD_1,'pink'],[UUHO_VOC,'light-blue'],[Tambourine,'light-red']]
 
-const songs= [B_VOC,DRUMS,HE_HE_VOC,HIGH_VOC,JIBRISH,LEAD_1,UUHO_VOC,tambourine]
-
-
+const songs= [B_VOC,DRUMS,HE_HE_VOC,HIGH_VOC,JIBRISH,LEAD_1,UUHO_VOC,Tambourine]
 
 const App= ()=>{
   
